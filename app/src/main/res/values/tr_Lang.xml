@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jobly</string>
+    <string name="settings">Ayarlar</string>
+    <string name="night_mode">Gece Modu</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="language">Dil</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="about_app">Uygulama Hakkında</string>
+    <string name="delete_account">Hesabı Sil</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="select_language">Dil Seçin</string>
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+</resources>

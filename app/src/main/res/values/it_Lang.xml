@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jobly</string>
+    <string name="settings">Impostazioni</string>
+    <string name="night_mode">Modalità notturna</string>
+    <string name="notifications">Notifiche</string>
+    <string name="language">Lingua</string>
+    <string name="privacy_policy">Politica sulla privacy</string>
+    <string name="about_app">Informazioni sull'app</string>
+    <string name="delete_account">Elimina account</string>
+    <string name="logout">Disconnettersi</string>
+    <string name="select_language">Seleziona la lingua</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+</resources>

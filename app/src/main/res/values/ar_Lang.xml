@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Jobly</string>
+    <string name="settings" translatable="false">الإعدادات</string>
+    <string name="night_mode" translatable="false">الوضع الليلي</string>
+    <string name="notifications" translatable="false">الإشعارات</string>
+    <string name="language" translatable="false">اللغة</string>
+    <string name="privacy_policy" translatable="false">سياسة الخصوصية</string>
+    <string name="about_app" translatable="false">حول التطبيق</string>
+    <string name="delete_account" translatable="false">حذف الحساب</string>
+    <string name="logout" translatable="false">تسجيل الخروج</string>
+    <string name="select_language" translatable="false">اختر اللغة</string>
+    <string name="ok" translatable="false">موافق</string>
+    <string name="cancel" translatable="false">إلغاء</string>
+</resources>

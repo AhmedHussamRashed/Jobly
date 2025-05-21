@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Jobly</string>
+    <string name="navigation_drawer_open" translatable="false">Open menu</string>
+    <string name="navigation_drawer_close" translatable="false">Close menu</string>
+    <string name="hint_name" translatable="false">Name</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_phone" translatable="false">Phone</string>
+    <string name="hint_address" translatable="false">Address</string>
+    <string name="btn_update" translatable="false">Update</string>
+    <string name="btn_cancel" translatable="false">Cancel</string>
+
+</resources>

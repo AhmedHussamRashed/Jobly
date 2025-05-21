@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/radioGroupLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/lang_ar"
+            android:text="العربية"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/lang_en"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="English" />
+
+        <RadioButton
+            android:id="@+id/lang_fr"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Français" />
+
+
+        <RadioButton
+            android:id="@+id/lang_es"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Español" />
+
+
+        <RadioButton
+            android:id="@+id/lang_de"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Deutsch" />
+
+
+        <RadioButton
+            android:id="@+id/lang_tr"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Türkçe" />
+
+
+        <RadioButton
+            android:id="@+id/lang_zh"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="中文 (Chinese)" />
+
+
+        <RadioButton
+            android:id="@+id/lang_hi"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="हिन्दी (Hindi)" />
+
+
+        <RadioButton
+            android:id="@+id/lang_ru"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Русский" />
+
+
+        <RadioButton
+            android:id="@+id/lang_ja"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="日本語 (Japanese)" />
+    </RadioGroup>
+</ScrollView>

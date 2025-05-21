@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/nav_applications"
+        android:title="Applications"
+        android:icon="@drawable/ic_applications" />
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notifications" />
+
+    <item
+        android:id="@+id/nav_myJob"
+        android:title="My Jobs"
+        android:icon="@drawable/ic_myJobs" />
+</menu>

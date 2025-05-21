@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jobly</string>
+    <string name="settings">設定</string>
+    <string name="night_mode">ナイトモード</string>
+    <string name="notifications">通知</string>
+    <string name="language">言語</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="about_app">アプリについて</string>
+    <string name="delete_account">アカウントを削除</string>
+    <string name="logout">ログアウト</string>
+    <string name="select_language">言語を選択</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+</resources>
