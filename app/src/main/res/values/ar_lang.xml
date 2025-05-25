@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jobly</string>
+    <string name="app_name">jobly</string>
     <string name="settings" translatable="false">الإعدادات</string>
     <string name="night_mode" translatable="false">الوضع الليلي</string>
     <string name="notifications" translatable="false">الإشعارات</string>
