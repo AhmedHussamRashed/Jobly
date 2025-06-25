@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
     // استبدل هذا بعنوان API الخاص بك
-    private static final String BASE_URL = "http://localhost:3000"; // استبدل هذا بـ app_url
+    private static final String BASE_URL = "http://localhost:3000";
     private static Retrofit retrofit = null;
 
     // تم تعديل هذه الدالة لتمرير التوكن في الهيدر

@@ -13,31 +13,35 @@ import retrofit2.http.Path;
 // واجهة API
 public interface ApiService {
 
-    // تحديث البيانات الشخصية
-    @POST("/update-profile")
-    Call<Void> updateProfile(@Body ProfileData profile);
+    //  تسجيل حساب جديد
+    @POST("ar/api/register")
+    Call<LoginResponse> register(@Body RegisterRequest registerRequest);
 
-    // تسجيل الدخول
+    //  تسجيل الدخول
     @POST("ar/api/login")
     Call<LoginResponse> login(@Body LoginRequest loginRequest);
 
-    // الحصول على جميع الوظائف
+    //  تحديث البيانات الشخصية
+    @POST("/update-profile")
+    Call<Void> updateProfile(@Body ProfileData profile);
+
+    //  الحصول على جميع الوظائف
     @GET("ar/api/job-seeker/all-jobs")
     Call<JobResponse> getAllJobs();
 
-    // تفاصيل الوظيفة
+    //  تفاصيل الوظيفة
     @GET("ar/api/job-seeker/job-details/{id}")
     Call<JobDetailsResponse> getJobDetails(@Path("id") int jobId);
 
-    // وضع الوظيفة في المفضلة
+    //  وضع الوظيفة في المفضلة
     @POST("ar/api/job-seeker/jobs/{id}/mark-favorite")
     Call<ResponseBody> markFavorite(@Path("id") int jobId);
 
-    // الحصول على الوظائف المفضلة
+    //  الحصول على الوظائف المفضلة
     @GET("ar/api/job-seeker/favorite-jobs")
     Call<FavoriteJobsResponse> getFavoriteJobs();
 
-    // التقديم على وظيفة (بإرفاق فيديو)
+    //  التقديم على وظيفة (بإرفاق فيديو)
     @Multipart
     @POST("ar/api/job-seeker/jobs/applied/{id}")
     Call<ResponseBody> applyJob(
@@ -45,15 +49,15 @@ public interface ApiService {
             @Part MultipartBody.Part video
     );
 
-    // الحصول على جميع الشركات
+    //  الحصول على جميع الشركات
     @GET("ar/api/all-companies")
     Call<CompaniesResponse> getAllCompanies();
 
-    // الحصول على الأسئلة الشائعة
+    //  الحصول على الأسئلة الشائعة
     @GET("ar/api/faqs")
     Call<FaqsResponse> getFaqs();
 
-    // الحصول على السياسات
+    //  الحصول على السياسات
     @GET("ar/api/policies")
     Call<PoliciesResponse> getPolicies();
 }
