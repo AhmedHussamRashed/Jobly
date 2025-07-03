@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(this, AboutMe.class));
                     return true;
                 case R.id.menu_logout:
-                    showLogoutDialog(); // استدعاء دايلوج تأكيد الخروج
+                    showLogoutDialog();
                     return true;
             }
             return false;
@@ -70,13 +70,13 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(this, HomeActivity.class));
                     return true;
                 case R.id.nav_applications:
-                    startActivity(new Intent(this, Applications.class));
+                    startActivity(new Intent(this, ApplicationsActivity.class));
                     return true;
                 case R.id.nav_notifications:
                     startActivity(new Intent(this, NotificationsActivity.class));
                     return true;
                 case R.id.nav_myJob:
-                    startActivity(new Intent(this, My_Jobs.class));
+                    startActivity(new Intent(this, MyJobActivity.class));
                     return true;
             }
             return false;

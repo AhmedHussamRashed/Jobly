@@ -113,7 +113,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private void sendProfileToServer(JSONObject json) {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://your-server.com") // غيّر هذا إلى عنوان السيرفر الحقيقي
+                .baseUrl("https://your-server.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

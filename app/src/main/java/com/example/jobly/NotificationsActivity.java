@@ -22,13 +22,13 @@ public class NotificationsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notifications); // تأكد من تطابق الاسم
+        setContentView(R.layout.activity_notifications);
 
         // إعداد شريط الأدوات
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // لا يوجد زر رجوع - يمكنك إضافته إذا لزم
+
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("الإشعارات");
         }

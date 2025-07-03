@@ -38,22 +38,22 @@ public class BookmarkAdapter extends RecyclerView.Adapter<BookmarkAdapter.Bookma
         holder.jobCompany.setText(job.getCompany());
         holder.jobLocation.setText(job.getLocation());
 
-        // الاستماع للنقرات
+
         holder.itemView.setOnClickListener(v -> {
             if (jobClickListener != null) {
-                jobClickListener.onJobClick(job); // تمرير الوظيفة للنقر
+                jobClickListener.onJobClick(job);
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return jobList != null ? jobList.size() : 0; // إضافة تحقق من كون القائمة فارغة
+        return jobList != null ? jobList.size() : 0;
     }
 
-    // واجهة للاستماع إلى النقرات على الوظائف
+
     public interface JobClickListener {
-        void onJobClick(Job job); // تمثل النقر على عنصر من العناصر
+        void onJobClick(Job job);
     }
 
     // ViewHolder للـ RecyclerView

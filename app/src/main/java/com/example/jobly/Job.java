@@ -5,7 +5,7 @@ public class Job {
     private String company;
     private String location;
     private String description;
-    private String salary;  // أضفنا الحقل المفقود
+    private String salary;
 
     // Constructor
     public Job(String title, String company, String location, String description, String salary) {
@@ -37,7 +37,7 @@ public class Job {
         return salary;
     }
 
-    // Setters (اختياري ولكن مفيد إذا كنت تعدل البيانات)
+
     public void setTitle(String title) {
         this.title = title;
     }

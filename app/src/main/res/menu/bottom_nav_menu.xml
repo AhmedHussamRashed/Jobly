@@ -18,5 +18,5 @@
     <item
         android:id="@+id/nav_myJob"
         android:title="My Jobs"
-        android:icon="@drawable/ic_myJobs" />
+        android:icon="@drawable/myJobs" />
 </menu>

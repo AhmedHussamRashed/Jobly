@@ -67,7 +67,7 @@ public class NotificationAdapter extends RecyclerView.Adapter<NotificationAdapte
             super(itemView);
             title = itemView.findViewById(R.id.notificationTitle);
             message = itemView.findViewById(R.id.notificationMessage);
-            date = itemView.findViewById(R.id.notificationDate); // تأكد أن لديك TextView بهذا الـ ID في item_notification.xml
+            date = itemView.findViewById(R.id.notificationDate);
         }
     }
 

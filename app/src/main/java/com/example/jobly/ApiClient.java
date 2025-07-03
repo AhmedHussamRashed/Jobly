@@ -6,11 +6,11 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    // استبدل هذا بعنوان API الخاص بك
+
     private static final String BASE_URL = "http://localhost:3000";
     private static Retrofit retrofit = null;
 
-    // تم تعديل هذه الدالة لتمرير التوكن في الهيدر
+
 
     public static Retrofit getClient(String token) {
         OkHttpClient client = new OkHttpClient.Builder()

@@ -10,6 +10,6 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_privacy_policy);
 
-        // هنا يمكنك إضافة أي عمليات أخرى تحتاج إليها بعد تحميل الشاشة
+
     }
 }

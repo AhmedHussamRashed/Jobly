@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Are you sure?"
         android:textSize="18sp"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/red"
         android:layout_marginBottom="16dp"
         android:textStyle="bold" />
 

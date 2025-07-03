@@ -41,7 +41,7 @@ public interface ApiService {
     @GET("ar/api/job-seeker/favorite-jobs")
     Call<FavoriteJobsResponse> getFavoriteJobs();
 
-    //  التقديم على وظيفة (بإرفاق فيديو)
+    //  التقديم على وظيفة
     @Multipart
     @POST("ar/api/job-seeker/jobs/applied/{id}")
     Call<ResponseBody> applyJob(
